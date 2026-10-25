@@ -9,7 +9,7 @@
     "wrangler-login": "wrangler login",
     "deploy-cf-worker": "echo 'Deploy to Cloudflare with: wrangler deploy --config wrangler.worker.jsonc' && wrangler deploy --config wrangler.worker.jsonc",
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "npx tsc && vite build",
     "deploy-cf-page": "echo 'Deploy to Cloudflare with: wrangler pages deploy' && wrangler pages deploy --branch=main"
   },
   "dependencies": { },
