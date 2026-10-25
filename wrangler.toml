@@ -1,0 +1,3 @@
+name = "siteproxy"
+main = "src/index.js"
+compatibility_date = "2025-10-01"
